@@ -9,8 +9,8 @@
       "VARIANT": "14"
     }
   },
-  "onCreateCommand": ["npm install -g yarn && yarn install && yarn bootstrap"],
-  "postCreateCommand": ["yarn install && yarn bootstrap"],
+  "onCreateCommand": ["yarn", "install"],
+  "postCreateCommand": ["yarn", "install"],
 
   // Set *default* container specific settings.json values on container create.
   "settings": {},
