@@ -10,7 +10,7 @@
     }
   },
   "onCreateCommand": ["yarn", "install"],
-  "postCreateCommand": ["yarn", "install"],
+  "postCreateCommand": ["yarn", "start"],
 
   // Set *default* container specific settings.json values on container create.
   "settings": {},
